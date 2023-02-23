@@ -1,0 +1,27 @@
+.body{
+    height: 100vh;
+    background-image: linear-gradient(rgb(179, 99, 179),rgb(234, 208, 234));
+    
+}
+
+.chatbox{
+    margin: 50px;
+}
+
+.sender{
+    background-color: purple;
+    color: white;
+    border-radius: 50px;
+    margin: 5px;
+    padding: 10px;
+    min-width: 50px;
+}
+
+.reciver{
+    background-color: lightgrey;
+    color: black;
+    border-radius: 50px;
+    margin: 5px;
+    padding: 10px;
+    min-width: 50px;
+}

@@ -1,0 +1,44 @@
+.body{
+    height: 100vh;
+    display: flex;
+    background-image: linear-gradient(rgb(179, 99, 179),rgb(234, 208, 234));
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.container{
+    padding-top: 20px;
+    /* border: 1px solid black;
+    width: 100%;
+    height: 20rem;
+    background-color: white; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.profile{
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.follow{
+    margin-top: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.followbtn{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 50px;
+    width: 49%;
+    margin-left: 5px;
+}
+.details{
+    margin: 10px;
+    margin-left: 9rem;
+    display: flex;
+    justify-content:left;
+}
